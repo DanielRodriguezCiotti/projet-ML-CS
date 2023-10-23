@@ -8,7 +8,7 @@ import chardet
 import random
 import os
 
-#Pour tester le modèle sans les nouvelles features, mettre en commentaire les lignes 28 à 34 et supprimer 'covid','Noël','vacances' de colonnes_a_inclure ligne 19.
+#Pour tester le modèle sans les nouvelles features, mettre en commentaire les lignes 34 à 40 (dédiées à l'encodage) et supprimer 'covid','Noël','vacances' de colonnes_a_inclure ligne 25.
 
 # Trouver les données
 script_dir = os.path.dirname(__file__)
